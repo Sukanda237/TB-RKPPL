@@ -5,7 +5,7 @@ public class A {
 
 	
 	public A(){
-		System.out.println("Kelas A");
+		System.out.println("Ctor di Kelas A");
 	}
 	
 	public String toString(){
