@@ -1,5 +1,8 @@
 package com.RKPPL.TB;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //author Trias Fachrul Zulfikar
 //133040286
 
@@ -52,6 +55,26 @@ public class MainApp {
 		System.out.println(c.toString());
 		
 		System.out.println();
+		
+		
+//		Instansiasi Kelas E
+		E e = new E();
+		
+//		membuat List
+		List dataList = new ArrayList();
+		
+		e.setDataList(dataList);
+		
+		System.out.println(e.getDataList());
+		
+		System.out.println(e.contains("C"));
+		System.out.println(e.contains("D"));
+		System.out.println(e.contains("E"));
+		
+				
+		System.out.println(e.toString());
+		
+		
 		
 	}
 

@@ -13,7 +13,7 @@ public class E {
 	}
 	
 	public boolean contains(String n){
-		return n.contains(n) ;
+		return this.dataList.toString().contains(n);
 	}
 
 //	mengambil data berupa List
