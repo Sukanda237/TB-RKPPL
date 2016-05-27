@@ -12,18 +12,21 @@ public class E {
 		System.out.println("Ctor dari kelas E");
 	}
 	
-	public boolean containe(String n){
-		return true ;
+	public boolean contains(String n){
+		return n.contains(n) ;
 	}
 
+//	mengambil data berupa List
 	public List getDataList() {
 		return dataList;
 	}
 
+//	melakukan set dataList
 	public void setDataList(List dataList) {
 		this.dataList = dataList;
 	}
 	
+//	Method toString dari kelas E
 	@Override
 	public String toString(){
 		return("toString di kelas E");
