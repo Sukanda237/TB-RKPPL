@@ -1,6 +1,6 @@
 package com.RKPPL.TB;
 
-//Author : Zamzam Jamaludin A
+// Author : Zamzam Jamaludin A
 
 public class Math extends C{
 
