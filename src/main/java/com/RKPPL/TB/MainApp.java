@@ -63,6 +63,9 @@ public class MainApp {
 //		membuat List
 		List dataList = new ArrayList();
 		
+		dataList.add(c);
+		dataList.add(d);
+		dataList.add(e);
 		e.setDataList(dataList);
 		
 		System.out.println(e.getDataList());
