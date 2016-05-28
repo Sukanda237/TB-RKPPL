@@ -14,8 +14,8 @@ public class Math extends C{
 	
 	
 
-	public double sqrt() {
+	public double sqrt(double n) {
 		// TODO Auto-generated method stub
-		return 3.14;
+		return java.lang.Math.sqrt(n);
 	}
 }
