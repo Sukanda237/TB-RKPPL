@@ -30,12 +30,20 @@ public class C {
 
 	public int add(){
 		
-		return 0;
+		A a = new A();
+		int n1 = (int) this.n1;
+		int n2 = (int) this.n2;
+		
+		return a.add(n1, n2);
 	}
 	
 	public int sub(){
 		
-		return 0;
+		A a = new A();
+		int n1 = (int) this.n1;
+		int n2 = (int) this.n2;
+		
+		return a.sub(n1, n2);
 	}
 	
 	public double mul(){
