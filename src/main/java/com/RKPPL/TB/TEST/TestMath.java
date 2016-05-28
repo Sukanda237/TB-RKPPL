@@ -18,7 +18,7 @@ public class TestMath {
 		com.RKPPL.TB.Math math = new Math();
 		
 		assertEquals(9%3, math.mod(9, 3));
-		assertEquals(3.14, math.sqrt());
+		assertEquals(3.14, math.sqrt(3.14));
 
 	}
 
